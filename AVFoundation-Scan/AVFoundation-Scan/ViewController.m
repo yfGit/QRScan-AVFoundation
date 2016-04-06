@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "ScanViewController.h"
-
 #import "QRCodeHelper.h"
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
@@ -28,12 +27,15 @@
 @end
 
 @implementation ViewController
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+
     // 方法注释在 .h
-    
-    
+
     self.view.backgroundColor = [UIColor whiteColor];
     _imgView.layer.borderColor = [UIColor redColor].CGColor;
     
