@@ -2,6 +2,7 @@
 AVFoundation 二维码扫描
 
 
+
 ###扫描: AVFoundation, 生成: CIFilter  解析: CIDetector(5S或以上)
 ---
 <p align="left" >

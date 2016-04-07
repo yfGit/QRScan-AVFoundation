@@ -25,7 +25,6 @@
 
     NSString *deviceStr = [self deviceVersion];
     NSString *subDev = [deviceStr substringWithRange:NSMakeRange(7, 1)];
-    NSLog(@"%@",subDev);
     if (!([deviceStr isEqualToString:@"iPhone 5S"] || subDev.intValue > 5 || [deviceStr isEqualToString:@"Simulator"])) {
         return nil;
     }
