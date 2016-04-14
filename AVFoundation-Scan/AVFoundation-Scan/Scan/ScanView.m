@@ -48,8 +48,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        
-        
         [self setupScanWithScanFrame:scanFrame borderImageName:imageName lineImageName:lineImageName];
     
     }

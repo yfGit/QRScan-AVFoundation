@@ -64,7 +64,7 @@
 #pragma mark - 解析
 
 - (IBAction)resolutionImage:(id)sender {
-    
+
     UIImagePickerController *imgPicker = [[UIImagePickerController alloc] init];
     imgPicker.delegate      = self;
     imgPicker.sourceType    = UIImagePickerControllerSourceTypePhotoLibrary;
@@ -105,6 +105,7 @@
 
 - (void)imageTap
 {
+    // 根据需求变换 editing
     UIImagePickerController *imgPicker = [[UIImagePickerController alloc] init];
     imgPicker.delegate      = self;
     imgPicker.sourceType    = UIImagePickerControllerSourceTypePhotoLibrary;

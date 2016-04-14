@@ -33,7 +33,7 @@
  
 //    int orientation = [self convertWithImage:image];
     
-    /* 坑爹的apple,original的图片size太大, 可能像素问题, 可能只能扫一部分,而扫不了二维码的三个角
+    /* 坑爹的apple,original的图片size太大, 可能像素问题, 可能只能扫一部分,而扫不了二维码的三个角, 可能为空
      * 系统自带的图片(模拟器)size:{3024, 3024}, 自己生成的图片有时3000也能解 =.=
      */
     if (image.size.width > 1000) {
